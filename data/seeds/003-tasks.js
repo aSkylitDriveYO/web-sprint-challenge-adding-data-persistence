@@ -10,7 +10,7 @@ exports.seed = function(knex) {
           {task_description: 'Gather laundry in basket.', task_notes: 'Don\'t forget the stuff in the closet.', task_completed: false, project_id: 2},
           {task_description: 'Add detergent to machine.', task_notes: '', task_completed: false, project_id: 2},
           {task_description: 'Move laundry to dryer.', task_notes: '', task_completed: false, project_id: 2},
-          {task_description: 'Remove and fold laundry.', task_notes: 'Actually fold it and put it away this time!', task_completed: false, project_id: 2},
+          {task_description: 'Remove and fold laundry', task_notes: 'Actually fold it and put it away this time!', task_completed: false, project_id: 2},
         ]);
       });
   };
